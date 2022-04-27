@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+header{
+    padding: 8px 0;
+    background-color: rgb(255, 255, 255);
+}
+
+/*cabecalho*/
+.center{
+    max-width: auto;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo img{
+    margin-top: 20px;
+    max-width: 100px;
+    width: 100%;
+}
+
+.menu{
+    width: 50%;
+    display: flex;
+}
+
+.menu-items{
+    margin-top: 40px;
+    padding: 0 30px;
+    display: inline-block;
+}
+
+.menu-items a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: rgb(125, 125, 125);
+}
+
+.menu-items a:hover{
+    color: rgb(20, 211, 211);
+}
+
+.search{
+    width: 50%;
+    text-align: right;
+}
+
+.input-search{
+    position: relative;
+    width: 200px;
+    display: inline-block;
+}
+
+.input-search i{
+    position: absolute;
+    left: 8px;
+    top: 25px;
+    color: grey;
+}
+
+.input-search input[type=text]{
+    width: 100%;
+    height: 30px;
+    border: 1px solid grey;
+    margin: 20px 5px;
+    padding-left: 25px;
+    color: rgb(48, 48, 48);
+    outline: 0;
+    border: 1ps solid gray;
+}
+
+/*banner rincipal do filme cartaz*/
+.banner-principal{
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    margin: 30PX 0;
+}
+
+.main h2{
+    color: rgb(125, 125, 125);
+    width: 100%;
+    margin: 30px 0;
+    text-align: center
+
+}
+
+.card-movie{
+    width: 20%;
+}
+
+/*efeito zoom quando passa o mouse*/
+.card-movie img{
+    width: 100%;
+    transition: 1s;
+}
+
+.card-movie img:hover{
+    transform: scale(1.1,1.1);
+}
