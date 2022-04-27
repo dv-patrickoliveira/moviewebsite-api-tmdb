@@ -22,7 +22,7 @@ fetch('https://api.themoviedb.org/3/movie/550?api_key=e78d50ded5ee4a5392986e38fe
                 if(j == 1){
                     main.innerHTML+=`
                     
-                    <h2 style="font-size:38px;">ASSISTA O MELHOR FILME</h2>
+                    <h2 style="font-size:38px;">ASSISTA O MELHOR FILME!</h2>
                     <div class="card-movie"><img src="https://image.tmdb.org/t/p/w500`+i.poster_path+`" /></div>
                     
                     `;
