@@ -1,4 +1,4 @@
-# amazonprime-clone-api-tmdb
+# websitefilmes-api-tmdb
 
 Nesse projeto utilizei HTML5, CSS e JS consumindo a API da TMDB.
 
