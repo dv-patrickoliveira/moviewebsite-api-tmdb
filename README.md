@@ -1,4 +1,4 @@
-# websitefilmes-api-tmdb
+# moviewebsite-api-tmdb
 
 Nesse projeto utilizei HTML5, CSS e JS consumindo a API da TMDB.
 
