@@ -1,5 +1,4 @@
 let main = document.querySelectorAll('.main .center')[0];
-//bizonho nao deu espaço no queryselectior all
 
 
 
@@ -9,11 +8,11 @@ fetch('https://api.themoviedb.org/3/movie/550?api_key=e78d50ded5ee4a5392986e38fe
 
     data.results.map((i,j)=>{
         
-        if(j > 15)  //aumentar o card de filmes
+        if(j > 15)  
             return;
             if(j == 0){
                 
-                //premio bisonho do ano colocou bannner(com tres n)
+                
                 main.innerHTML+=`<div class="banner-principal" style="background-image:url('https://image.tmdb.org/t/p/original`+i.backdrop_path+`')"></div>
                 
                 
@@ -46,7 +45,7 @@ fetch('https://api.themoviedb.org/3/movie/popular?api_key=506fadb0256c13349acc05
 
     data.results.map((i,j)=>{
         
-        if(j > 15)  //aumentar o card de filmes
+        if(j > 15)  
             return;
             if(j == 0){
                 
